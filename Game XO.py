@@ -68,7 +68,7 @@ greet()
 field = [[" "] * 3 for i in range(3)]
 count = 0
 while True:
-    count += 10
+    count += 1
     show()
     if count % 2 == 1:
         print(" Ходит крестик!")
